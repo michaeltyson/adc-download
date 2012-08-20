@@ -13,7 +13,7 @@
 # Team names are on the lines below 'select name="memberDisplayId" id="teams"'
 # Use formfind at <https://raw.github.com/bagder/curl/master/perl/contrib/formfind> to reveal the form contents if you need help.
 myaccountID=""
-teamloginURL="http://developer.apple.com/devcenter/saveTeamSelection.action"
+teamloginURL="https://developer.apple.com/devcenter/saveTeamSelection.action"
 
 if [ ! "$1" ]; then
   echo "Usage:"
